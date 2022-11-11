@@ -1,0 +1,13 @@
+<form class = "search-form" (ngSubmit) = "pesquisar()">
+        
+    <button class="pesquisa">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </button>
+    <input placeholder = "Pesquisar" type="text" class = "input" name="descricao" [(ngModel)] = "descricao">
+
+    <button type ="click" class="carrinho" >
+        <a routerLink="/carrinho">
+            <i class="fa-solid fa-cart-shopping"></i>
+        </a>
+    </button>
+</form>
